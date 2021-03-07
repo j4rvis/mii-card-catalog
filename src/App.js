@@ -4,7 +4,14 @@ import MkmApi from './mkmapi.js';
 import { useEffect, useState } from 'react';
 import env from '../.env.json'
 
-
+// .env.json
+// {
+//   "baseUrl": "",
+//   "appToken": "",
+//   "appSecret": "",
+//   "accessToken": "",
+//   "accessSecret": "",
+// }
 
 let token = env || {}
 
